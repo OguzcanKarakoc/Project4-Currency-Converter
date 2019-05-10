@@ -6,7 +6,7 @@ This project was a school project. It is an Currency Convert application build w
 
 ## Showcase
 
-(click the image to start the video, **Warning: Video has music**.)
+(click the image to start the video, **Warning: Video has music**.)  
 Please note that in th showcase you will see a tiny bug in the graph. This is because we accidently added 2 Datapoints to the same index:
 ```
 new DataPoint(3, Double.parseDouble(result.get(3))),
