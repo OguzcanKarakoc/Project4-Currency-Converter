@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="History" />
+    <item
+        android:id="@+id/nav_main"
+        android:icon="@drawable/ic_money_black_24dp"
+        android:title="Main page" />
+    <item
+        android:id="@+id/nav_crypto"
+        android:icon="@drawable/ic_bitcoin_black_24dp"
+        android:title="Cryptocurrencies" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@mipmap/baseline_settings_black_24"
+        android:title="Settings" />
+
+
+</menu>

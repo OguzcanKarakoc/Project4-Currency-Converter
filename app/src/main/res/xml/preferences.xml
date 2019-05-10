@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General">
+
+        <EditTextPreference
+            android:defaultValue="4"
+            android:key="edit_txt_decimals"
+            android:selectAllOnFocus="true"
+            android:numeric="integer"
+            android:singleLine="true"
+            android:summary="How many decimals should be used?"
+            android:title="Decimals" />
+        <Preference
+            android:key="btn_deleteHistory"
+            android:summary="This will delete the history!"
+            android:title="Reset history" />
+
+        <Preference
+            android:key="btn_reset"
+            android:summary="This will reset all settings to their default values!"
+            android:title="Reset preferences" />
+    </PreferenceCategory>
+</PreferenceScreen>
